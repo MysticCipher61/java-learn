@@ -1,6 +1,6 @@
 // program to shotlist student on basic oF Mark.
 // First create student class which contains percentage oF student  in array     
-// then exten it with class short  in which i will short the student in A,B,C
+// then extend it with class short  in which i will short the student in A,B,C
 
 
 // Here i got the problem of index 

@@ -2,7 +2,7 @@
 //inches to centimeter 
 
 
-//centimeter =inches*2..54
+//centimeter =inches*2.54
 //inches = centimeter/2.54
 
 import java.util.*;

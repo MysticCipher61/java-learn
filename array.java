@@ -8,14 +8,14 @@ public class array
 {
     public static void main(String[] args) 
     {
-        int no[] = new int[5];
+        int no[] = new int[5];  //Array Declartion  
         int i;
         Scanner  sc = new Scanner(System.in);
 
-        for (i = 0; i < 5; i++)
+        for (i = 0; i < 5; i++)  //Initilisging 
         {
             System.out.print("Enter"+ i + "=" );    
-            no[i]= sc.nextInt();
+            no[i]= sc.nextInt();  //scaning the array
         }
         
         //print in order

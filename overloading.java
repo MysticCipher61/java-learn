@@ -1,17 +1,20 @@
 //calculate the area of square and rectangle
 //by using the OVERLOAIDNG method
 
+// idk i have to add static for class mathod 
+// or else i get error 
+
 import java.util.Scanner;
 
 class overloadinginhava{
-    static int area(int a)
+    static int area(int a)   // method overloadding
     {
         System.out.println("Area of Squre:");
         int result;
         return result = a*a;
     }
 
-    static int area(int w, int l)
+    static int area(int w, int l)  //method overloadding
     {
         System.out.println("Area of Rectangle:");
         int result;
