@@ -31,19 +31,29 @@ public class largeest
         //Shorting 
     //  int largest = 0 ;
         int temp;
-        for (int i = 0; i < arr.length; i++) 
+
+        try 
         {
-            for (int j = 0; j < arr.length; j++) 
+            for (int i = 0; i < arr.length; i++) 
             {
-                if (arr[i]>arr[j])
+                for (int j = 0; j < arr.length; j++) 
                 {
-                    temp    =   arr[i];
-                    arr[i]  =   arr[j];
-                    arr[j]  =   temp;
-                }    
-            }
-                  
+                    if (arr[i]>arr[j])
+                    {
+                        temp    =   arr[i];
+                        arr[i]  =   arr[j];
+                        arr[j]  =   temp;
+                    }    
+                }
+                      
+            }    
+        } 
+        catch (Exception e) 
+        {
+            // TODO: handle exception
+            System.out.println("ERROR: Printed By User");
         }
+        
 
         System.out.println("After Shorting");
         System.out.println("----------------");
